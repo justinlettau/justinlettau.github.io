@@ -24,65 +24,16 @@ html, body {
         top: 50%;
         transform: translateY(-50%);
     }
+
+    .contact-group > a {
+        color: rgba(255, 255, 255, 0.3);
+    }
 }
 
 .home-title {
     margin: 0;
     font-weight: 300;
     font-size: 3rem;
-}
-
-.home-links {
-    padding-top: 50px;
-
-    > .btn {
-        position: relative;
-        margin-left: 5px;
-        margin-right: 5px;
-        width: 100px;
-
-        &:hover, &:focus {
-            background-color: transparent;
-
-            &::before, &::after {
-                height: 100%;
-                width: 100%;
-                border: 1px solid transparent;
-            }
-
-            &::before {
-                border-top-color: $brand-primary;
-                border-right-color: $brand-primary;
-                transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
-            }
-
-            &::after {
-                border-bottom-color: $brand-primary;
-                border-left-color: $brand-primary;
-                transition: height 0.25s ease-out, width 0.25s ease-out 0.25s;
-            }
-        }
-
-        &::before, &::after {
-            content: '';
-            box-sizing: content-box;
-            position: absolute;
-            top: -1px;
-            left: -1px;
-            height: 0;
-            width: 0;
-        }
-    }
-}
-
-@media (max-width: map-get($grid-breakpoints, sm)) {
-    .home-links {
-        > .btn {
-            display: block;
-            width: 80%;
-            margin: 0 auto 10px auto;
-        }
-    }
 }
 
 .bg-shade {
@@ -98,7 +49,7 @@ html, body {
     > a {
         display: inline;
         padding: ($spacer-y * 1.5) ($spacer-y * 1.5);
-        max-width: 150px;
+        max-width: 110px;
         display: block;
         text-align: center;
         color: $text-muted;
