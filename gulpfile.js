@@ -62,7 +62,12 @@ gulp.task('test.js', function () {
 });
 
 gulp.task('build.js', function () {
-    return gulp.src('js/**/*.js')
+    return gulp.src([
+        'js/**/*.js',
+
+        // exclude
+        '!js/analytics.js'
+    ])
         .pipe(gulp.dest('dist'));
 });
 
