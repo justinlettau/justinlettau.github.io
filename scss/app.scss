@@ -2,6 +2,20 @@
 @import '../node_modules/bootstrap/scss/bootstrap';
 @import '../node_modules/font-awesome/scss/font-awesome';
 
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: $border-radius;
+    background: rgba(0, 0, 0, 0.25);
+}
+
 html, body {
     height: 100%;
 }
