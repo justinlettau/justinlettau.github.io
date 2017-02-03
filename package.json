@@ -1,26 +1,26 @@
 {
-    "name": "justinlettau.com",
-    "description": "Website for JustinLettau.com.",
-    "version": "0.0.2",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/justinlettau/justinlettau.github.io.git"
-    },
-    "devDependencies": {
-        "del": "2.2.2",
-        "gulp": "3.9.1",
-        "gulp-autoprefixer": "3.1.1",
-        "gulp-concat": "2.6.1",
-        "gulp-inject": "4.2.0",
-        "gulp-jshint": "2.0.4",
-        "gulp-sass": "3.1.0",
-        "gulp-uglify": "2.0.1",
-        "gulp-watch": "4.3.11",
-        "run-sequence": "1.2.2",
-        "jshint": "2.9.4"
-    },
-    "dependencies": {
-        "bootstrap": "4.0.0-alpha.6",
-        "font-awesome": "4.7.0"
-    }
+  "name": "justinlettau.com",
+  "description": "Website for JustinLettau.com.",
+  "version": "0.0.3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justinlettau/justinlettau.github.io.git"
+  },
+  "devDependencies": {
+    "del": "2.2.2",
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "3.1.1",
+    "gulp-concat": "2.6.1",
+    "gulp-inject": "4.2.0",
+    "gulp-jshint": "2.0.4",
+    "gulp-sass": "3.1.0",
+    "gulp-uglify": "2.0.1",
+    "gulp-watch": "4.3.11",
+    "run-sequence": "1.2.2",
+    "jshint": "2.9.4"
+  },
+  "dependencies": {
+    "bootstrap": "4.0.0-alpha.6",
+    "font-awesome": "4.7.0"
+  }
 }
