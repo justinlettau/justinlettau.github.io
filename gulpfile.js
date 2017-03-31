@@ -5,7 +5,7 @@ const del = require('del');
 const autoprefixer = require('gulp-autoprefixer');
 const concat = require('gulp-concat');
 const inject = require('gulp-inject');
-const jshint = require('gulp-jshint');
+const eslint = require('gulp-eslint');
 const runSequence = require('run-sequence');
 const sass = require('gulp-sass');
 const uglify = require('gulp-uglify');
@@ -57,8 +57,9 @@ gulp.task('test.js', function () {
         // exclude
         '!js/analytics.js'
     ])
-        .pipe(jshint())
-        .pipe(jshint.reporter('default'));
+        .pipe(eslint())
+        .pipe(eslint.format())
+        .pipe(eslint.failAfterError());
 });
 
 gulp.task('build.js', function () {
@@ -119,7 +120,7 @@ gulp.task('build.sass', function () {
 
 gulp.task('build.sass:release', function () {
     return gulp.src('scss/*.scss')
-        .pipe(sass({ outputStyle: 'compressed' }))
+        .pipe(sass())
         .pipe(autoprefixer())
         .pipe(gulp.dest('dist'));
 });
