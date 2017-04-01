@@ -15,20 +15,21 @@
     "test": "eslint js/app.js -c ./.eslintrc"
   },
   "devDependencies": {
-    "del": "2.2.2",
-    "gulp": "3.9.1",
-    "gulp-autoprefixer": "3.1.1",
-    "gulp-concat": "2.6.1",
-    "gulp-eslint": "3.0.1",
-    "gulp-inject": "4.2.0",
-    "gulp-sass": "3.1.0",
-    "gulp-uglify": "2.1.2",
-    "gulp-watch": "4.3.11",
-    "eslint-config-unicorn-science": "1.0.0",
-    "run-sequence": "1.2.2"
+    "del": "^2.2.2",
+    "eslint": "^3.19.0",
+    "eslint-config-unicorn-science": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-inject": "^4.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-watch": "^4.3.11",
+    "run-sequence": "^1.2.2"
   },
   "dependencies": {
-    "bootstrap": "4.0.0-alpha.6",
-    "font-awesome": "4.7.0"
+    "bootstrap": "^4.0.0-alpha.6",
+    "font-awesome": "^4.7.0"
   }
 }
