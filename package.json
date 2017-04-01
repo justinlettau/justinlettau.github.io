@@ -2,6 +2,11 @@
   "name": "justinlettau.com",
   "description": "Website for JustinLettau.com.",
   "version": "0.0.4",
+  "author": {
+    "name": "Justin Lettau",
+    "email": "me@justinlettau.com",
+    "url": "http://justinlettau.com"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/justinlettau/justinlettau.github.io.git"
