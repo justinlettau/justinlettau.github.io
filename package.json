@@ -1,7 +1,7 @@
 {
   "name": "justinlettau.com",
   "description": "Website for JustinLettau.com.",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": {
     "name": "Justin Lettau",
     "email": "me@justinlettau.com",
@@ -13,8 +13,9 @@
   },
   "scripts": {
     "build": "gulp",
-    "lint": "npm run lint:app && npm run lint:tools",
+    "lint": "npm run lint:app && npm run lint:tools && npm run lint:sass",
     "lint:app": "eslint js/app.js -c ./.eslintrc",
+    "lint:sass": "sass-lint -c .sass-lint.yml -v",
     "lint:tools": "eslint *.js -c ./.eslintrc"
   },
   "devDependencies": {
@@ -29,7 +30,9 @@
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0",
     "gulp-watch": "^4.3.11",
-    "run-sequence": "^2.1.0"
+    "run-sequence": "^2.1.0",
+    "sass-lint": "^1.10.2",
+    "sass-lint-config-unicorn-science": "^1.0.0"
   },
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
