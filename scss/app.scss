@@ -62,7 +62,7 @@ html, body {
 
     > a {
         display: inline;
-        padding: ($spacer-y * 1.5) ($spacer-y * 1.5);
+        padding: ($spacer * 1.5);
         max-width: 110px;
         display: block;
         text-align: center;
@@ -83,7 +83,7 @@ html, body {
 
         > span {
             display: block;
-            padding-top: ($spacer-y / 2);
+            padding-top: ($spacer / 2);
         }
     }
 }
@@ -91,7 +91,7 @@ html, body {
 @media (max-width: map-get($grid-breakpoints, sm)) {
     .tech-group {
         > a {
-            padding: ($spacer-y * 0.8) ($spacer-y * 0.8);
+            padding: ($spacer * 0.8) ($spacer * 0.8);
             max-width: 50%;
         }
     }
@@ -103,13 +103,13 @@ html, body {
     justify-content: center;
 
     > a {
-        padding: $spacer-y ($spacer-y * 1.5);
+        padding: $spacer ($spacer * 1.5);
         color: $body-color;
         transition: color 0.3s;
 
         &:hover, &:focus {
             text-decoration: none;
-            color: $brand-primary;
+            color: $blue;
         }
 
         > i {
