@@ -20,18 +20,18 @@
   },
   "devDependencies": {
     "del": "^3.0.0",
-    "eslint": "^4.4.1",
+    "eslint": "^4.8.0",
     "eslint-config-unicorn-science": "^1.0.3",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-eslint": "^4.0.0",
-    "gulp-inject": "^4.2.0",
+    "gulp-inject": "^4.3.0",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0",
     "gulp-watch": "^4.3.11",
-    "run-sequence": "^2.1.0",
-    "sass-lint": "^1.10.2",
+    "run-sequence": "^2.2.0",
+    "sass-lint": "^1.11.1",
     "sass-lint-config-unicorn-science": "^1.0.0"
   },
   "dependencies": {
