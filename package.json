@@ -20,22 +20,22 @@
   },
   "devDependencies": {
     "del": "^3.0.0",
-    "eslint": "^4.8.0",
-    "eslint-config-unicorn-science": "^1.0.3",
+    "eslint": "^4.19.1",
+    "eslint-config-unicorn-science": "^1.1.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-concat": "^2.6.1",
-    "gulp-eslint": "^4.0.0",
-    "gulp-inject": "^4.3.0",
-    "gulp-sass": "^4.0.0",
+    "gulp-eslint": "^4.0.2",
+    "gulp-inject": "^4.3.2",
+    "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.0",
     "gulp-watch": "^5.0.0",
-    "run-sequence": "^2.2.0",
-    "sass-lint": "^1.11.1",
-    "sass-lint-config-unicorn-science": "^1.0.0"
+    "run-sequence": "^2.2.1",
+    "sass-lint": "^1.12.1",
+    "sass-lint-config-unicorn-science": "^1.1.0"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0-beta",
+    "bootstrap": "^4.1.1",
     "font-awesome": "^4.7.0"
   }
 }
