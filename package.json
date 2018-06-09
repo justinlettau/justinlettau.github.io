@@ -35,7 +35,7 @@
     "sass-lint-config-unicorn-science": "^1.1.0"
   },
   "dependencies": {
-    "bootstrap": "^4.1.1",
-    "font-awesome": "^4.7.0"
+    "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
+    "bootstrap": "^4.1.1"
   }
 }

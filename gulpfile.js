@@ -17,6 +17,7 @@ gulp.task('default', function (callback) {
     'test.js',
     'build.js',
     'build.sass',
+    'fonts',
     'inject',
     callback
   );
@@ -28,6 +29,7 @@ gulp.task('release', function (callback) {
     'clean.dist',
     'build.js:release',
     'build.sass:release',
+    'fonts',
     'inject:release',
     callback
   );
@@ -103,9 +105,10 @@ gulp.task('inject:release', function () {
 
 gulp.task('fonts', function () {
   return gulp.src([
-    'node_modules/font-awesome/fonts/fontawesome-webfont.*'
+    'node_modules/@fortawesome/fontawesome-free-webfonts/webfonts/fa-regular-*',
+    'node_modules/@fortawesome/fontawesome-free-webfonts/webfonts/fa-brands-*'
   ])
-    .pipe(gulp.dest('fonts'));
+    .pipe(gulp.dest('dist'));
 });
 
 // Sass
