@@ -106,6 +106,7 @@ gulp.task('inject:release', function () {
 gulp.task('fonts', function () {
   return gulp.src([
     'node_modules/@fortawesome/fontawesome-free-webfonts/webfonts/fa-regular-*',
+    'node_modules/@fortawesome/fontawesome-free-webfonts/webfonts/fa-solid-*',
     'node_modules/@fortawesome/fontawesome-free-webfonts/webfonts/fa-brands-*'
   ])
     .pipe(gulp.dest('dist'));

@@ -8,6 +8,7 @@
   border: 1px solid $gray-500;
   box-shadow: 0 0 5px $gray-600;
   margin: 0 auto;
+  max-width: 297mm;
   padding: 4rem;
   size: $print-page-size;
 }
@@ -128,6 +129,7 @@
   .page {
     border: 0;
     box-shadow: 0;
+    max-width: auto;
   }
 
   a {
