@@ -392,7 +392,7 @@ mark,
   .blockquote-footer::before {
     content: "\2014 \00A0"; }
 
-.img-fluid {
+.img-fluid, .resume-photo {
   max-width: 100%;
   height: auto; }
 
@@ -4270,7 +4270,7 @@ button.bg-dark:focus {
   border-top-left-radius: 0.25rem !important;
   border-bottom-left-radius: 0.25rem !important; }
 
-.rounded-circle {
+.rounded-circle, .resume-photo {
   border-radius: 50% !important; }
 
 .rounded-0 {
@@ -8497,9 +8497,117 @@ a.text-dark:hover, a.text-dark:focus {
   background: rgba(0, 0, 0, 0.25);
   border-radius: 0.25rem; }
 
+.resume {
+  background-color: #dee2e6;
+  padding: 4rem; }
+
+.page {
+  background-color: #fff;
+  border: 1px solid #adb5bd;
+  box-shadow: 0 0 5px #6c757d;
+  margin: 0 auto;
+  padding: 4rem;
+  size: a3; }
+
+.resume-photo {
+  max-width: 80px; }
+
+.personal-info {
+  text-align: right; }
+  .personal-info a {
+    color: #212529; }
+
+.category {
+  align-items: center;
+  display: flex;
+  margin: 1rem 0; }
+
+.category-icon {
+  color: #adb5bd;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  padding-bottom: .5rem; }
+
+.category-title {
+  border-bottom: 1px solid #adb5bd;
+  flex: 1 1 auto;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: .5rem 0;
+  text-transform: uppercase; }
+
+.section {
+  margin-left: 40px; }
+
+.experience,
+.education {
+  padding-bottom: 30px;
+  position: relative; }
+  .experience::before,
+  .education::before {
+    background-color: #343a40;
+    border-radius: 50%;
+    content: '';
+    height: 6px;
+    left: -30px;
+    position: absolute;
+    top: 6px;
+    width: 6px; }
+  .experience::after,
+  .education::after {
+    border-left: 2px solid #adb5bd;
+    bottom: 2px;
+    content: '';
+    left: -28px;
+    position: absolute;
+    top: 22px; }
+
+.experience-date,
+.education-date {
+  color: #6c757d; }
+
+.experience-title,
+.education-title {
+  color: #007bff;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0; }
+
+.skill {
+  align-items: center;
+  display: flex;
+  margin-bottom: .5rem; }
+
+.skill-label {
+  margin-right: 1rem;
+  width: 60%; }
+
+.skill-level {
+  display: flex;
+  width: 40%; }
+
+.skill-dot {
+  background-color: #dee2e6;
+  border-radius: 50%;
+  height: 8px;
+  margin-right: 2px;
+  width: 8px; }
+  .skill-dot.active {
+    background-color: #007bff; }
+
+@media print {
+  .resume {
+    background-color: #fff;
+    padding: 0; }
+  .page {
+    border: 0;
+    box-shadow: 0; }
+  a {
+    text-decoration: none !important; } }
+
 html,
 body {
-  height: 100%; }
+  min-height: 100%; }
 
 .home {
   background-image: url("../images/bg-2.jpg");
