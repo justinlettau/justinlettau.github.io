@@ -101,13 +101,13 @@
 .skill-gap {
   border-bottom: 1px dashed $gray-400;
   flex: 1 1 auto;
-  margin-bottom: 2px;
   margin: 0 .5rem;
+  margin-bottom: 2px;
 }
 
 .skill-level {
-  justify-content: flex-end;
   display: flex;
+  justify-content: flex-end;
 }
 
 .skill-bar {
