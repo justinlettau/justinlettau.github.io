@@ -1,6 +1,10 @@
 .resume {
   background-color: $resume-bg;
   padding: 4rem;
+
+  a {
+    color: $body-color;
+  }
 }
 
 .page {
@@ -21,10 +25,6 @@
 
 .personal-info {
   text-align: right;
-
-  a {
-    color: $body-color;
-  }
 }
 
 .category {
@@ -93,27 +93,29 @@
 }
 
 .skill {
-  align-items: center;
+  align-items: flex-end;
   display: flex;
   margin-bottom: .5rem;
 }
 
-.skill-label {
-  margin-right: 1rem;
-  width: 60%;
+.skill-gap {
+  border-bottom: 1px dashed $gray-400;
+  flex: 1 1 auto;
+  margin-bottom: 2px;
+  margin: 0 .5rem;
 }
 
 .skill-level {
+  justify-content: flex-end;
   display: flex;
-  width: 40%;
 }
 
-.skill-dot {
+.skill-bar {
   background-color: $gray-300;
-  border-radius: 50%;
-  height: 8px;
+  border-radius: 2px;
+  height: 18px;
   margin-right: 2px;
-  width: 8px;
+  width: 4px;
 
   &.active {
     background-color: map-get($theme-colors, primary);

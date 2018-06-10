@@ -9381,6 +9381,8 @@ readers do not read off random characters that represent icons */
 .resume {
   background-color: #dee2e6;
   padding: 4rem; }
+  .resume a {
+    color: #212529; }
 
 .page {
   background-color: #fff;
@@ -9396,8 +9398,6 @@ readers do not read off random characters that represent icons */
 
 .personal-info {
   text-align: right; }
-  .personal-info a {
-    color: #212529; }
 
 .category {
   align-items: center;
@@ -9456,25 +9456,27 @@ readers do not read off random characters that represent icons */
   margin-bottom: 0; }
 
 .skill {
-  align-items: center;
+  align-items: flex-end;
   display: flex;
   margin-bottom: .5rem; }
 
-.skill-label {
-  margin-right: 1rem;
-  width: 60%; }
+.skill-gap {
+  border-bottom: 1px dashed #ced4da;
+  flex: 1 1 auto;
+  margin-bottom: 2px;
+  margin: 0 .5rem; }
 
 .skill-level {
-  display: flex;
-  width: 40%; }
+  justify-content: flex-end;
+  display: flex; }
 
-.skill-dot {
+.skill-bar {
   background-color: #dee2e6;
-  border-radius: 50%;
-  height: 8px;
+  border-radius: 2px;
+  height: 18px;
   margin-right: 2px;
-  width: 8px; }
-  .skill-dot.active {
+  width: 4px; }
+  .skill-bar.active {
     background-color: #007bff; }
 
 @media print {
