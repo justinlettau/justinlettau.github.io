@@ -1,0 +1,43 @@
+@import 'src/sass/core';
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.skill-list-item {
+  color: $text-muted;
+  display: block;
+  max-width: 110px;
+  padding: ($spacer * 1.5);
+  text-align: center;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+
+    > img {
+      transform: scale(1.1);
+      transition: transform .2s;
+    }
+  }
+
+  > img {
+    max-width: 100%;
+  }
+
+  > span {
+    display: block;
+    padding-top: ($spacer / 2);
+  }
+}
+
+@media (max-width: map-get($grid-breakpoints, sm)) {
+  .skill-list {
+    > a {
+      max-width: 50%;
+      padding: ($spacer * .8);
+    }
+  }
+}

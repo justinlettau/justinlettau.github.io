@@ -1,4 +1,0 @@
-options:
-  config-file: node_modules/sass-lint-config-unicorn-science/.sass-lint.yml
-files:
-  include: 'scss/**/*.scss'
