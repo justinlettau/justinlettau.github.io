@@ -11,7 +11,6 @@ import Skills from '../skills/Skills';
 library.add(fas, fab);
 
 export default class App extends Component {
-
   /**
    * Render.
    */

@@ -5,7 +5,6 @@ import React, { Component } from 'react';
 import ContactList from '../contact-list/ContactList';
 
 export default class Home extends Component {
-
   /**
    * Render.
    */
@@ -17,7 +16,7 @@ export default class Home extends Component {
             Hello, I'm
             <span className="text-primary"> Justin Lettau</span>
           </h1>
-          <p>I'm a full-stack web developer.</p>
+          <p>I&apos;m a full-stack web developer.</p>
           <ContactList />
         </div>
       </div>

@@ -3,8 +3,7 @@ import './ContactList.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { Component } from 'react';
 
-export default class Contactlist extends Component {
-
+export default class ContactList extends Component {
   /**
    * Contact list items.
    */
@@ -42,11 +41,18 @@ export default class Contactlist extends Component {
   render() {
     return (
       <div className="contact-list">
-        {this.items.map(item =>
-          <a href={item.link} className="contact-list-item" target="_blank" rel="noreferrer noopener" title={item.name} key={item.name}>
+        {this.items.map(item => (
+          <a
+            href={item.link}
+            className="contact-list-item"
+            target="_blank"
+            rel="noreferrer noopener"
+            title={item.name}
+            key={item.name}
+          >
             <FontAwesomeIcon icon={item.icon} size="3x" />
           </a>
-        )}
+        ))}
       </div>
     );
   }

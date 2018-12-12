@@ -19,7 +19,13 @@
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.js -c .eslintrc",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -b master -d build",
+    "format:all": "prettier --write src/**/*.{js,scss}"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.9",
@@ -34,7 +40,11 @@
     "react-dom": "^16.6.3",
     "react-scripts": "^2.1.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "husky": "^1.2.0",
+    "prettier": "^1.15.3",
+    "pretty-quick": "^1.8.0"
+  },
   "browserslist": [
     ">0.2%",
     "not dead",

@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import ContactList from '../contact-list/ContactList';
 
 export default class Contacts extends Component {
-
   /**
    * Render.
    */

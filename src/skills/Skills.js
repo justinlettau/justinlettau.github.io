@@ -24,7 +24,6 @@ import threejsPng from '../images/logos/threejs.png';
 import typescriptPng from '../images/logos/typescript.png';
 
 export default class Skills extends Component {
-
   /**
    * Skill items.
    */
@@ -128,7 +127,7 @@ export default class Skills extends Component {
       name: 'Three.js',
       link: 'https://threejs.org/',
       image: threejsPng
-    },
+    }
   ];
 
   /**
@@ -144,12 +143,12 @@ export default class Skills extends Component {
           </div>
           <hr className="my-5" />
           <div className="skill-list">
-            {this.items.map(item =>
-              <a href={item.link} target="_blank"  rel="noreferrer noopener" className="skill-list-item" key={item.name}>
+            {this.items.map(item => (
+              <a href={item.link} target="_blank" rel="noreferrer noopener" className="skill-list-item" key={item.name}>
                 <img src={item.image} alt={item.name} />
                 <span>{item.name}</span>
               </a>
-            )}
+            ))}
           </div>
         </div>
       </section>
