@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5cba6b4a9fe4af1730735420a341ae47",
+    "revision": "f1c40f2ec62d473d28b95bd064ad436a",
     "url": "/index.html"
   },
   {
-    "revision": "45aedf5bc791bbcda863",
-    "url": "/static/css/main.8f69efab.chunk.css"
+    "revision": "6cdf1f7ab3734a3dcbac",
+    "url": "/static/css/main.18540f4d.chunk.css"
   },
   {
     "revision": "aa3ef1d8c414d01e55d3",
     "url": "/static/js/2.9abd1fb4.chunk.js"
   },
   {
-    "revision": "45aedf5bc791bbcda863",
+    "revision": "6cdf1f7ab3734a3dcbac",
     "url": "/static/js/main.66fe8d70.chunk.js"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/runtime-main.252b47a5.js"
   },
   {
-    "revision": "5101c021f9be54079ceeb9ec5e789bef",
-    "url": "/static/media/bg.5101c021.jpg"
+    "revision": "e13196a0ddb3adcf226f0feb6d068ea5",
+    "url": "/static/media/bg-mountains.e13196a0.jpg"
   },
   {
     "revision": "28506730a921a2cc9e149b800249886d",
