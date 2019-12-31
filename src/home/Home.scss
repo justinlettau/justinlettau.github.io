@@ -1,7 +1,7 @@
 @import 'src/sass/core';
 
 .home {
-  background-image: url('../images/bg.jpg');
+  background-image: url('../images/bg-mountains.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,7 +18,7 @@
   }
 
   .contact-list-item {
-    color: fade-out($white, .7);
+    color: fade-out($white, 0.7);
   }
 }
 
