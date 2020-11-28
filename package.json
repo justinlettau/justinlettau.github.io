@@ -1,0 +1,54 @@
+{
+  "name": "justinlettau.github.io",
+  "description": "Website for Justin Lettau.",
+  "version": "1.0.0",
+  "homepage": "https://justinlettau.com",
+  "author": {
+    "name": "Justin Lettau",
+    "email": "me@justinlettau.com",
+    "url": "https://justinlettau.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justinlettau/justinlettau.github.io.git"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/**/*.js -c .eslintrc",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "format": "prettier --write ."
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.13",
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "^4.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "husky": "^4.3.0",
+    "node-sass": "^4.14.1",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

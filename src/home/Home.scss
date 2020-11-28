@@ -1,0 +1,29 @@
+@import 'src/sass/core';
+
+.home {
+  background-image: url('../images/bg-mountains.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $gray-500;
+  height: 100vh;
+  text-align: center;
+
+  // vertically center
+  > .container {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .contact-list-item {
+    color: fade-out($white, 0.7);
+  }
+}
+
+.home-title {
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 0;
+}
