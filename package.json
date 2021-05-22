@@ -20,7 +20,7 @@
     "clean": "gatsby clean",
     "lint": "eslint src/**/*.js -c .eslintrc",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d public",
     "format": "prettier --write ."
   },
   "husky": {
