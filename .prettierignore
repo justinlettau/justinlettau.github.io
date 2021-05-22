@@ -1,3 +1,2 @@
-build/
-coverage/
-public/analytics.js
+.cache
+public

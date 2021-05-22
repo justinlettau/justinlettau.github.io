@@ -12,6 +12,6 @@ Website for Justin Lettau.
 # Development
 
 ```
-npm install
+npm ci
 npm start
 ```
