@@ -1,0 +1,30 @@
+---
+import GitHubLogo from '../components/GitHubLogo.astro';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Justin Lettau">
+  <main class="min-h-screen bg-neutral-900 text-white">
+    <div class="container mx-auto">
+      <section class="p-8 lg:p-20">
+        <img src="/avatar.png" alt="Justin Lettau" class="h-20 w-20" />
+        <h1 class="text-5xl font-bold leading-none">Justin Lettau</h1>
+        <p class="text-lg text-neutral-400">Software Engineer</p>
+
+        <ul class="mt-10 flex gap-10">
+          <li>
+            <a
+              href="https://github.com/justinlettau"
+              target="_blank"
+              class="flex items-center gap-2 rounded-md bg-zinc-800 px-6 py-3 text-neutral-300 transition-colors hover:bg-zinc-700"
+              rel="noreferrer"
+            >
+              <GitHubLogo />
+              <span>GitHub</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+</Layout>
